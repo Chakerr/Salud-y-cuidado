@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<link href="Styles.css" rel="stylesheet" type="text/css"/>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Styles.css" rel="stylesheet" type="text/css"/>
+        <title>Registrarse</title>
+    </head>
+    <body>
+
+        <div class="login-box">
+            <h2>Registrarse</h2>
+
+            <!-- Formulario de registro -->
+
+            <form action="./RegistrarseServlet" id="registroForm">
+                <div class="user-box">
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="nombre">Nombre:</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" id="cedula" name="cedula" required>
+                    <label for="cedula">Cédula:</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" id="contrasena" name="contrasena" required>
+                    <label for="contrasena">Contraseña:</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" id="numero" name="numero" required>
+                    <label for="numero">Número:</label>
+                </div>
+                <div class="user-box">
+                    <input type="number" id="genero" name="genero" required>
+                    <label for="genero">Género:</label>
+                </div>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <input type="submit" value = "Enviar">
+                </a>
+                <p><a href="menu.html">¿Ya tienes una cuenta?</a></p>
+            </form>
+            <script src="script.js"></script>
+    </body>
+</html>
